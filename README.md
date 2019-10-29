@@ -10,7 +10,11 @@ in order to use the crud, follow these steps:
 
 4. type in the command line "php artisan serve".
 
-5. to populate the db tabels open youre browser at url "http://127.0.0.1:8000/populat".
+5. to populate the db tabels type in the command line "php artisan tinker
+$controller = app()->make('App\Http\Controllers\PeopleController');
+app()->call([$controller, 'populat'], []);" 
+
+  or click on th link "http://127.0.0.1:8000/populat".
 
 6. in the command line go to *local directory*>starwars-people-master>angular and type in "ng serve".
 
