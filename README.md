@@ -14,7 +14,7 @@ in order to use the crud, follow these steps:
 $controller = app()->make('App\Http\Controllers\PeopleController');
 app()->call([$controller, 'populat'], []);" 
 
-  or click on th link "http://127.0.0.1:8000/populat".
+  or click on the link "http://127.0.0.1:8000/populat".
 
 6. in the command line go to *local directory*>starwars-people-master>angular and type in "ng serve".
 
