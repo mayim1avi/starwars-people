@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/populat', 'PeopleController@populat');
+Route::get('/get-all', 'PeopleController@getAll');
+
+// Route::resource('Pepole', 'PeopleController');
+Route::get('pepole/store', 'PeopleController@store');
+Route::get('pepole/update', 'PeopleController@update');
+Route::get('pepole/delete/{id}', 'PeopleController@destroy');
