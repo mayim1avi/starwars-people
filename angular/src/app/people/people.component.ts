@@ -19,7 +19,7 @@ import { DialogFormComponent } from '../dialog-form/dialog-form.component';
 export class PeopleComponent implements AfterViewInit, OnInit {
   @ViewChild(MatPaginator, {static: false}) paginator: MatPaginator;
   @ViewChild(MatSort, {static: false}) sort: MatSort;
-  @ViewChild(MatTable, {static: false}) table: MatTable<PepoleItem>;
+  @ViewChild(MatTable, {static: false}) table: MatTable<PeopleItem>;
   dataSource: PeopleDataSource;
 
   constructor(private peopleService: PeopleService, private dialog: MatDialog) {}
