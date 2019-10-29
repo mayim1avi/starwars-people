@@ -7,7 +7,7 @@ import { Observable, of as observableOf, merge } from 'rxjs';
 import { PeopleItem } from '../interfaces/people-item';
 
 /**
- * Data source for the Pepole view. This class should
+ * Data source for the People view. This class should
  * encapsulate all logic for fetching and manipulating the displayed data
  * (including sorting, pagination, and filtering).
  */

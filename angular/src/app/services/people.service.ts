@@ -17,12 +17,12 @@ export class PeopleService {
   		return this.http.get(this.url + '/get-all');
   	}
 
-  	addPeople(pepoleForm: any, title: string, serverAction: string ) {				
+  	addPeople(peopleForm: any, title: string, serverAction: string ) {				
 		let body = new HttpParams({
-  			fromObject : pepoleForm
+  			fromObject : peopleForm
 		});
 		
-		return this.http.get(this.url + '/pepole/' + serverAction, {params: body}/*, this.ParseHeaders*/);		
+		return this.http.get(this.url + '/people/' + serverAction, {params: body}/*, this.ParseHeaders*/);		
 	}
 
 

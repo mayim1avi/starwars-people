@@ -19,6 +19,6 @@ Route::get('/populat', 'PeopleController@populat');
 Route::get('/get-all', 'PeopleController@getAll');
 
 // Route::resource('Pepole', 'PeopleController');
-Route::get('pepole/store', 'PeopleController@store');
-Route::get('pepole/update', 'PeopleController@update');
-Route::get('pepole/delete/{id}', 'PeopleController@destroy');
+Route::get('people/store', 'PeopleController@store');
+Route::get('people/update', 'PeopleController@update');
+Route::get('people/delete/{id}', 'PeopleController@destroy');
